@@ -7,8 +7,8 @@ public class Main {
         Azione prelevaMonete = new Azione(s, false);
 
 
-        inserisciMonete.run();
-        prelevaMonete.run();
+        inserisciMonete.start();
+        prelevaMonete.start();
         System.out.println("I threads sono partiti");
 
         inserisciMonete.join();

@@ -16,7 +16,7 @@ public class Salvadanaio {
         usando(false);
     }
 
-    private void usando(boolean azione){
+    private synchronized void usando(boolean azione){
         if (azione) {
             monete++;
         }else{
